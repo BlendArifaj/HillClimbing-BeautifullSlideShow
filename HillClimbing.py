@@ -167,12 +167,11 @@ class beautifulSlideShowHillClimbing:
 
 
 if __name__ == "__main__":
-    #file = "/home/blendarifaj/FIEK - Mater/Viti 2/Semestri 3/Algoritmet e Inspiruara nga Natyra/Detyra/qualification_round_2019.in/d_pet_pictures.txt"
-    #file = "/home/blendarifaj/FIEK - Mater/Viti 2/Semestri 3/Algoritmet e Inspiruara nga Natyra/Detyra/qualification_round_2019.in/qualification_round_2019.in/c_memorable_moments.txt"
-    #file = "/home/blendarifaj/FIEK - Mater/Viti 2/Semestri 3/Algoritmet e Inspiruara nga Natyra/Detyra/qualification_round_2019.in/qualification_round_2019.in/d_pet_pictures.txt"
-    #file = "/home/blendarifaj/FIEK - Mater/Viti 2/Semestri 3/Algoritmet e Inspiruara nga Natyra/Detyra/qualification_round_2019.in/qualification_round_2019.in/e_shiny_selfies.txt"
-    #file = "/home/blendarifaj/FIEK - Mater/Viti 2/Semestri 3/Algoritmet e Inspiruara nga Natyra/Detyra/qualification_round_2019.in/qualification_round_2019.in/b_lovely_landscapes.txt"
-    file = "/home/blendarifaj/FIEK - Mater/Viti 2/Semestri 3/Algoritmet e Inspiruara nga Natyra/Detyra/qualification_round_2019.in/qualification_round_2019.in/e_shiny_selfies.txt"
+    #file = "d_pet_pictures.txt"
+    #file = "c_memorable_moments.txt"
+    #file = "d_pet_pictures.txt"
+    #file = "b_lovely_landscapes.txt"
+    file = "e_shiny_selfies.txt"
     tmp = beautifulSlideShowHillClimbing(file)
     print(tmp.initialSolution)
     print(tmp.initialFitness)
